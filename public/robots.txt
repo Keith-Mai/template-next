@@ -1,0 +1,11 @@
+# https://developers.google.com/search/docs/advanced/robots/create-robots-txt
+
+# Block all crawlers for /accounts
+# User-agent: *
+# Disallow: /accounts
+
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+Sitemap: http://www.example.com/sitemap.xml

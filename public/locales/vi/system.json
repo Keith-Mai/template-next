@@ -1,0 +1,9 @@
+{
+  "notFound": {
+    "title": "Trang web không tồn tại",
+    "description": "Xin lỗi, chúng tôi không thể tìm thấy trang bạn đang tìm kiếm."
+  },
+  "links": {
+    "backToHome": "Quay về trang chủ"
+  }
+}

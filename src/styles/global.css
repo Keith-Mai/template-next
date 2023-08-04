@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "SVN Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  src: local("SVN Gilroy"),
+    url(/fonts/svn-gilroy-regular.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "SVN Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  src: local("SVN Gilroy"), url(/fonts/svn-gilroy-medium.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "SVN Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  src: local("SVN Gilroy"),
+    url(/fonts/svn-gilroy-semibold.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "SVN Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  src: local("SVN Gilroy"), url(/fonts/svn-gilroy-bold.otf) format("opentype");
+}
+
+::selection {
+}
+
+html {
+  min-width: 360px;
+  scroll-behavior: smooth;
+}
+
+#__next {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
